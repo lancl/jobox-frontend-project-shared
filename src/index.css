@@ -1,0 +1,93 @@
+/* Overall Style */
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: DarkSlateGrey;
+}
+h2 {
+  font-size: 110%;
+}
+
+/* For background images, on signup and login pages */
+.img {
+  margin: 10px;
+  /* justify-content: center; */
+  width: 100%;
+}
+.firstContainer {
+  display: grid;
+  grid-template-rows: 15% 85%;
+}
+
+/* Big container, for both top section and main section */
+.outerSections {
+  display: grid;
+  grid-template-rows: 15% 85%;
+  min-width: 600px;
+}
+
+/* Style for main/message section */
+.mainSection {
+  display: grid;
+  grid-template-rows: 80% 20%;
+  grid-row-gap: 10px;
+  height: 650px;
+}
+.lobbyImg {
+  width: 100%;
+}
+.innerContainer2 {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-column-gap: 15px;
+  margin: 15px;
+  padding: 5px;
+}
+.messageInput {
+  height: 70%;
+}
+.button2 {
+  padding: 5px;
+  height: 70%;
+  width: 70%;
+}
+.buttonIcon2 {
+  margin: 8px;
+}
+
+/* Style for top section */
+.topSection {
+  display: grid;
+  background-color: dodgerblue;
+  color: white;
+  padding: 5x;
+  grid-template-columns: 85% 15%;
+  grid-template-rows: 50% 50%;
+  grid-column-gap: 5px;
+  /* grid-row-gap: 5px; */
+}
+.innerContainer {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.reactSelect {
+  font-family: arial;
+  font-size: 16px;
+  background-color: white;
+  color: dodgerblue;
+  margin: 8px;
+  width: 125px;
+  height: 35px;
+}
+.reactButton {
+  font-family: arial;
+  font-size: 16px;
+  background-color: white;
+  color: dodgerblue;
+  padding: 8px;
+  margin: 8px;
+}
+.containerAlign {
+  padding: 5px;
+  /* text-align: center; */
+}
